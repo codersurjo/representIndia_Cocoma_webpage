@@ -1,0 +1,380 @@
+@media all and (min-width:1101px){
+    .main_menu ul{
+        display: flex;
+    }
+    .offcanvas-container{
+        visibility: hidden !important;
+    }
+}
+
+@media all and (max-width:1199px){
+    .banner_area_design {
+        padding: 100px 0;
+    }
+    .banner_all_con h1 {
+        font-size: 53px;
+        color: #FFFFFF;
+    }
+    .banner_all_con h5 {
+        font-size: 21px;
+        line-height: 29px;
+        margin-bottom: 25px;
+    }
+    .agency_title h2 {
+        font-size: 44px;
+        line-height: 69px;
+    }
+    .single_content {
+        padding: 58px 32px 75px 54px;
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .single_content h3 {
+        font-size: 35px;
+        line-height: 38px;
+        margin-bottom: 40px;
+    }
+    .p_con h4 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+@media all and (max-width:1100px){
+    .main_menu ul{
+        display: none;
+    }
+    .icon_toggle{
+        display: block;
+    }
+    .logo a img {
+        height: auto;
+        max-width: 181px;
+    }
+    .proposal {
+        margin-right: 17px;
+        padding: 8px 20px;
+    }
+   
+    .proposal a {
+        font-size: 14px;
+    }
+    .header_area {
+        padding: 12px 0;
+        position: relative;
+    }
+    .toggle-label {
+        width: 31px;
+        height: 32px;
+    }
+    .toggle-label .toggle-text::before,
+    .toggle-label .toggle-text::after {
+        display: none;
+    }
+    .offcanvas-container {
+        top: 66px;
+    }
+    .single_tab_item a {
+        color: #000 !important;
+    }
+}
+
+@media all and (max-width:991px){
+    .banner_all_con h1 {
+        font-size: 43px;
+        color: #FFFFFF;
+        line-height: 50px;
+    }
+    .agency_title h2 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .title {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .all_client img {
+        max-width: 91px;
+        max-height: 76px;
+        margin: 0px 15px;
+    }
+    .record_agency_area {
+        padding: 58px 0;
+    }
+    .single_content {
+        padding: 27px;
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .single_content h3 {
+        font-size: 32px;
+        line-height: 34px;
+        margin-bottom: 22px;
+    }
+    .what_left h3 {
+        font-size: 41px;
+        line-height: 52px;
+    }
+    .what_single span {
+        font-size: 40px;
+        line-height: 90px;
+        margin: 0 24px;
+        flex: 0 0 40px;
+        max-width: 37px;
+    }
+    .what_single {
+        padding: 6px 0px;
+        border-top: 1px solid #000;
+    }
+    .w_con {
+        border-left: 1px solid #000;
+        padding-left: 16px;
+    }
+    .w_con p {
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+    }
+    .pp {
+        margin-bottom: 28px;
+    }
+    .what_we_do_area {
+        padding-top: 84px;
+    }
+    .process_area_design {
+        margin-top: 80px;
+    }
+    .footer_left {
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    
+}
+
+@media all and (max-width:767px){
+    .single_tab_item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .agency_title h2 {
+        font-size: 26px;
+        line-height: 45px;
+    }
+    .agency_title {
+        text-align: center;
+        margin-bottom: 56px;
+    }
+    .all_client {
+        display: flex;
+        flex-wrap:wrap ;
+    }
+    .single_content {
+        padding: 27px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .single_full_content_area {
+        flex-wrap: wrap;
+    }
+    .single_content {
+        padding: 34px;
+    }
+    .what_left h3 {
+        text-align: center;
+    }
+    .what_we_do_area {
+        padding-top: 51px;
+    }
+    .what_right {
+        margin-top: 50px;
+    }
+    .what_single {
+        padding: 0;
+        border-top: 0;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 25px;
+    }
+    .w_con {
+        border-left: 0;
+        padding-left: 0;
+    }
+    .what_single span {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0;
+        flex: 0 0 40px;
+        max-width: 37px;
+    }
+    .what_single:last-child {
+        border-bottom: none;
+    }
+    .process_area_design {
+        margin-top: 49px;
+    }
+    .contact_us_are_title {
+        margin-top: 39px;
+    }
+    .contact_title h2 {
+        font-size: 29px;
+        line-height: 34px;
+        width: 88%;
+    }
+    .single_c2 {
+        text-align: center;
+        margin-top: 25px;
+    }
+}
+
+
+@media all and (max-width:575px){
+    .logo a img {
+        height: auto;
+        max-width: 160px;
+    }
+    .banner_all_con h5 br{
+        display: none;
+    }
+    .banner_form input[type="email"] {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .banner_form input[type="submit"] {
+        margin-left: 0;
+        margin-top: 17px;
+    }
+    .banner_all_con h5 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 21px;
+    }
+    .agency_title h2 {
+        font-size: 26px;
+        line-height: 32px;
+        display: inline;
+    }
+    .agency_title h2::after,
+    .agency_title h2::before {
+        display: none;
+    }
+    .t_mar {
+        margin-bottom: 22px;
+    }
+    .single_c {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .single_c2 input {
+        width: 206px;
+        height: 47px;
+        font-size: 14px;
+        line-height: 36px;
+    }
+    .f_single_left {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 27px;
+    }
+    .f_single_right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 27px;
+    }
+    .footer_area_design {
+        padding: 43px 0;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width:450px){
+    .logo a img {
+        max-width: 120px;
+    }
+    .proposal a {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .proposal {
+        margin-right: 9px;
+        padding: 3px 6px;
+    }
+    .proposal a img {
+        margin-left: 2px;
+        width: 21px;
+    }
+    .toggle:checked ~ .toggle-label .toggle-icon::before {
+        transform: translateX(-50%) rotate(45deg);
+        top: 0.5px;
+    }
+    .toggle-label .toggle-icon, .toggle-label .toggle-icon::before, .toggle-label .toggle-icon::after {
+        height: 2px;
+        width: 19px;
+
+    }
+    .toggle-label {
+        width: 16px;
+        height: 21px;
+        margin-top: 6px;
+    }
+    .offcanvas-container {
+        top: 53px;
+    }
+    .offcanvas-container {
+        width: 100%;
+    }
+    .card-body {
+        padding: 10px;
+    }
+    .offcanvas-menu ul li a {
+        font-size: 13px;
+    }
+    .toggle-label .toggle-icon::before {
+        transform: translate3d(-50%, -11.5px, 0);
+        top: 4px;
+    }
+    .banner_area_design {
+        padding: 55px 0;
+    }
+    .banner_all_con h1 {
+        font-size: 37px;
+        color: #FFFFFF;
+        line-height: 38px;
+    }
+    .banner_all_con h5 {
+        font-size: 15px;
+        line-height: 10px;
+        margin-bottom: 21px;
+    }
+    .banner_form input[type="email"] {
+        font-size: 14px;
+    }
+    .banner_form input[type="submit"] {
+        font-size: 14px;
+    }
+    .single_content h3 {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 22px;
+    }
+    .single_content h3 span {
+        font-size: 21px;
+    }
+    .single_content p {
+        color: #FFF;
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .single_content {
+        padding: 27px 15px;
+    }
+    .single_c input, .single_c textarea, .single_c select {
+        font-size: 14px;
+    }
+}
