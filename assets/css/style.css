@@ -1,0 +1,48 @@
+/*===============================================
+Default css
+===============================================*/
+body{
+	margin:0;
+	padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	padding:0;
+}
+ul{
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+a{
+	margin:0;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration:none;
+}
+.section_padding{
+	padding: 100px 0;
+}
+.section_heading{
+	text-align: center;
+}
+.section_heading h2{
+	position: relative;
+}
+.section_heading h2:after{
+	position: absolute;
+	content: "";
+}
+.section_heading h2:before{
+	position: absolute;
+	content: "";
+}
+.section_heading p{
+}
+
+
+/*=================================================================
+				Start Main css
+=================================================================*/
