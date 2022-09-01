@@ -13,7 +13,7 @@
     }
     .banner_all_con h1 {
         font-size: 53px;
-        color: #FFFFFF;
+        line-height: 67px;
     }
     .banner_all_con h5 {
         font-size: 21px;
@@ -37,6 +37,67 @@
     .p_con h4 {
         font-size: 20px;
         line-height: 27px;
+    }
+    .service_banner p {
+        max-width: 100%;
+        width: 100%;
+        margin: 30px 0;
+    }
+    .youtube_con h2 {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    .youtube_con p {
+        color: #FFFFFF;
+        max-width: 700px;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .single_video_img img {
+        width: 161px;
+    }
+    .single_item_video_con {
+        margin-bottom: 50px;
+    }
+    .single_video_img::after {
+        position: absolute;
+        content: "";
+        background: url(../images/home/dot.png) no-repeat scroll 0 0 / 100% 100%;
+        width: 100px;
+        height: 150px;
+        opacity: 0.3;
+        bottom: 0%;
+        right: 12%;
+        z-index: -1;
+    }
+    .single_item_video_con:nth-child(2n+1) .video_flex .single_video_img::after {
+        left: 12%;
+        bottom: 0;
+    }
+    .single_together h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .single_mission h3 {
+        font-size: 27px;
+        line-height: 47px;
+        margin-bottom: 4px;
+    }
+    .meet_founder_area {
+        padding: 37px 0;
+    }
+    .founder_con h4 {
+        font-size: 29px;
+        line-height: 42px;
+        margin-bottom: 15px;
+    }
+    .team_img {
+        width: 127px;
+        height: 127px;
+    }
+    .our_client_area_design {
+        padding: 25px 0;
     }
 }
 @media all and (max-width:1100px){
@@ -150,6 +211,64 @@
         width: 100%;
         margin-bottom: 28px;
     }
+    .banner_area_design.service_banner_area {
+        padding-bottom: 24px;
+    }
+    .youtube_con h2 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+    .single_item_video_con h2 {
+        font-size: 34px;
+        line-height: 21px;
+    }
+    .single_video_con h3 {
+        font-size: 33px;
+        line-height: 37px;
+        margin: 25px 0;
+    }
+    .single_video_con p {
+        min-height: auto;
+        max-width: 661.4px;
+        width: 100%;
+    }
+    .single_item_video_con {
+        margin-bottom: 75px;
+    }
+    .our_work_all_content ul li {
+        flex: 0 0 31%;
+        max-width: 31%;
+        margin-bottom: 15px;
+    }
+    .our_works_tab_menu ul li a br {
+        display: none;
+    }
+    .our_work_all_content ul li a {
+        border: 1px solid #000;
+        padding: 10px 15px;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .our_work_all_content ul li a.active {
+        border: 1px solid #F22929;
+        padding: 10px 15px;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #F22929;
+        color: #FFF;
+    }
+    .our_work_all_content ul li a.active:after{
+        display: none;
+    }
+    .t_single {
+        flex: 0 0 48%;
+        max-width: 48%;
+        margin-bottom: 30px;
+    }
     
 }
 
@@ -227,6 +346,118 @@
         text-align: center;
         margin-top: 25px;
     }
+    .youtube_con ul li {
+        margin: 0 8px;
+    }
+    .youtube_con ul li a {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .video_flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .single_video_con {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .single_item_video_con:nth-child(2n+1) .video_flex .single_video_img::after {
+        left: 52% !important;
+        bottom: 0;
+    }
+    .single_item_video_con:nth-child(2n) .video_flex {
+        flex-direction: column-reverse;
+    }
+    .single_item_video_con:nth-child(2n) .video_flex .single_video_img::after {
+        left: 63%;
+        bottom: 0;
+    }
+    .our_work_all_content ul li {
+        flex: 0 0 49%;
+        max-width: 49%;
+        margin-bottom: 15px;
+    }
+    .t_single {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .t_single iframe {
+        width: 100%;
+        min-height: 346px;
+    }
+    .our_works_area_design {
+        padding-top: 11px;
+        padding-bottom: 15px;
+    }
+    .single_together {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .single_together h3 {
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+    .founder_con {
+        text-align: center;
+    }
+    .to_img {
+        width: 100%;
+    }
+    .to_img img {
+        width: 100%;
+    }
+    .single_mission {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .single_mission:last-child{
+        margin-bottom: 0;
+    }
+    .founder_img {
+        flex: 0 0 100%;
+    }
+    .founder_con {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 32px;
+    }
+    .a_about_us_area_design {
+        padding: 25px 0;
+    }
+    .ab_together {
+        padding-top: 50px;
+        padding-bottom: 58px;
+    }
+    .meet_all h5 {
+        font-size: 31px;
+        margin-bottom: 22px;
+    }
+    .founder_con h4 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 11px;
+    }
+    .team_desktop {
+        display: none;
+    }
+    .team_mobile{
+        display: block;
+    }
+    .s_team {
+        max-width: 100%;
+    }
+    .life_of_cocoma {
+        padding-top: 36px;
+        padding-bottom: 13px;
+    }
+
 }
 
 
@@ -287,6 +518,30 @@
     .footer_area_design {
         padding: 43px 0;
         padding-bottom: 20px;
+    }
+    .youtube_con ul {
+        display: block;
+        justify-content: center;
+    }
+    .youtube_con h2 {
+        font-size: 29px;
+        line-height: 43px;
+    }
+    .single_video_img img {
+        width: 124px;
+    }
+    .single_video_con h3 {
+        font-size: 26px;
+        line-height: 31px;
+        margin: 15px 0;
+        margin-top: 29px;
+    }
+    .our_client_area_design {
+        padding: 25px 0;
+        padding-top: 0;
+    }
+    .founder_con {
+        text-align: center;
     }
 }
 
@@ -376,5 +631,36 @@
     }
     .single_c input, .single_c textarea, .single_c select {
         font-size: 14px;
+    }
+    .our_work_all_content ul li {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .t_single iframe {
+        width: 100%;
+        min-height: 242px;
+    }
+    .t_single {
+        margin-bottom: 15px;
+    }
+    .single_together h3 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 29px;
+        text-align: center;
+    }
+    .meet_all h5 {
+        font-size: 26px;
+        margin-bottom: 8px;
+    }
+    .founder_con h4 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .meet_founder_area {
+        padding: 37px 0;
+        padding-top: 10px;
     }
 }
